@@ -1,10 +1,10 @@
 const display = document.querySelector('.js-display')
 const items = document.querySelectorAll('.item')
-// console.log('items:', items);
 
 
-items.forEach((button) => {
-    button.addEventListener('click', (e) => {
+
+items.forEach((item) => {
+    item.addEventListener('click', (e) => {
         let itemText = e.target.textContent;
         
         if(itemText === "AC") {
